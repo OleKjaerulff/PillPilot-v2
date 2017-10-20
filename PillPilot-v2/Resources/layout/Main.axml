@@ -68,7 +68,8 @@
         <TextView
             android:text="Lamotrigin"
             android:textAppearance="?android:attr/textAppearanceSmall"
-            android:id="@+id/morgenNavn1" />
+            android:id="@+id/morgenNavn1"
+            android:textColor="@android:color/holo_purple" />
         <TextView
             android:text="200 mg"
             android:textAppearance="?android:attr/textAppearanceSmall"
