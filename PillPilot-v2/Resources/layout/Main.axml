@@ -12,7 +12,9 @@
         <TextView
             android:text="MORGEN"
             android:id="@+id/titleMORGEN"
-            android:layout_marginRight="45.0dp" />
+            android:textStyle="bold"
+            android:layout_marginRight="0.0dp"
+            android:textColor="@android:color/holo_blue_dark" />
         <TextView
             android:text=""
             android:id="@+id/blankMorgen2"
@@ -35,22 +37,34 @@
             android:layout_marginRight="40.0dp" />
         <TextView
             android:text="Navn"
-            android:id="@+id/titleNAVNmorgen" />
+            android:id="@+id/titleNAVNmorgen"
+            android:layout_marginRight="80.0dp"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Dosis"
-            android:id="@+id/titleDOSISmorgen" />
+            android:id="@+id/titleDOSISmorgen"
+            android:layout_marginRight="60.0dp"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Antal"
-            android:id="@+id/titleANTALmorgen" />
+            android:id="@+id/titleANTALmorgen"
+            android:layout_marginRight="50.0dp"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Alarm"
-            android:id="@+id/titleALARMmorgen" />
+            android:id="@+id/titleALARMmorgen"
+            android:layout_marginRight="50.0dp"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Taget?"
-            android:id="@+id/titleTAGETmorgen" />
+            android:id="@+id/titleTAGETmorgen"
+            android:layout_marginRight="35.0dp"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Hvornår?"
-            android:id="@+id/titleHVORNÅRmorgen" />
+            android:id="@+id/titleHVORNÅRmorgen"
+            android:layout_marginRight="63.5dp"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Lamotrigin"
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -68,7 +82,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:id="@+id/morgenAlarm1" />
         <CheckBox
-            android:text="cb1"
+            android:text=""
             android:id="@+id/morgenTaget1" />
         <TextView
             android:text="09:00"
@@ -91,7 +105,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:id="@+id/morgenAlarm2" />
         <CheckBox
-            android:text="cb2"
+            android:text=""
             android:id="@+id/morgenTaget2" />
         <TextView
             android:text="09:00"
@@ -99,6 +113,8 @@
             android:id="@+id/morgenHvornår2" />
         <TextView
             android:text="MIDDAG"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
             android:id="@+id/titleMIDDAG" />
         <TextView
             android:text=""
@@ -122,22 +138,28 @@
             android:layout_marginRight="40.0dp" />
         <TextView
             android:text="Navn"
-            android:id="@+id/titleNAVNmiddag" />
+            android:id="@+id/titleNAVNmiddag"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Dosis"
-            android:id="@+id/titleDOSISmiddag" />
+            android:id="@+id/titleDOSISmiddag"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Antal"
-            android:id="@+id/titleANATLmiddag" />
+            android:id="@+id/titleANATLmiddag"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Alarm"
-            android:id="@+id/titleALARMmiddag" />
+            android:id="@+id/titleALARMmiddag"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Taget?"
-            android:id="@+id/titleTAGETmiddag" />
+            android:id="@+id/titleTAGETmiddag"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Hvornår?"
-            android:id="@+id/titleHVORNÅRmiddag" />
+            android:id="@+id/titleHVORNÅRmiddag"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Olanzapin"
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -155,7 +177,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:id="@+id/middagAlarm1" />
         <CheckBox
-            android:text="cb3"
+            android:text=""
             android:id="@+id/middagTaget1" />
         <TextView
             android:text="13:00"
@@ -178,7 +200,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:id="@+id/middagAlarm2" />
         <CheckBox
-            android:text="cb4"
+            android:text=""
             android:id="@+id/middagTaget2" />
         <TextView
             android:text="13:00"
@@ -186,6 +208,8 @@
             android:id="@+id/middagHvornår2" />
         <TextView
             android:text="AFTEN"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
             android:id="@+id/titleAFTEN" />
         <TextView
             android:text=""
@@ -209,22 +233,28 @@
             android:layout_marginRight="40.0dp" />
         <TextView
             android:text="Navn"
-            android:id="@+id/titleNAVNaften" />
+            android:id="@+id/titleNAVNaften"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Dosis"
-            android:id="@+id/titleDOSISaften" />
+            android:id="@+id/titleDOSISaften"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Antal"
-            android:id="@+id/titleANTALaften" />
+            android:id="@+id/titleANTALaften"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Alarm"
-            android:id="@+id/titleALARMaften" />
+            android:id="@+id/titleALARMaften"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Taget?"
-            android:id="@+id/titleTAGETaften" />
+            android:id="@+id/titleTAGETaften"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Hvornår?"
-            android:id="@+id/titleHVORNÅRaften" />
+            android:id="@+id/titleHVORNÅRaften"
+            android:textColor="@android:color/holo_blue_bright" />
         <TextView
             android:text="Quetiapin"
             android:textAppearance="?android:attr/textAppearanceSmall"
@@ -242,7 +272,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:id="@+id/aftenAlarm1" />
         <CheckBox
-            android:text="cb5"
+            android:text=""
             android:id="@+id/aftenTaget1" />
         <TextView
             android:text="19:00"
@@ -265,7 +295,7 @@
             android:textAppearance="?android:attr/textAppearanceSmall"
             android:id="@+id/aftenAlarm2" />
         <CheckBox
-            android:text="cb6"
+            android:text=""
             android:id="@+id/aftenTaget1" />
         <TextView
             android:text="19:00"
