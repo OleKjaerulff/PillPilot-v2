@@ -2,6 +2,274 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout1"
+        android:columnCount="6"
+        android:rowCount="12">
+        <TextView
+            android:text="MORGEN"
+            android:id="@+id/textView1"
+            android:layout_marginRight="45.0dp" />
+        <TextView
+            android:text="b2"
+            android:id="@+id/textView1"
+            android:layout_marginRight="50.5dp" />
+        <TextView
+            android:text="b3"
+            android:id="@+id/textView1"
+            android:layout_marginRight="35.0dp" />
+        <TextView
+            android:text="b4"
+            android:id="@+id/textView1"
+            android:layout_marginRight="40.0dp" />
+        <TextView
+            android:text="b5"
+            android:id="@+id/textView1"
+            android:layout_marginRight="61.5dp" />
+        <TextView
+            android:text="b6"
+            android:id="@+id/textView1"
+            android:layout_marginRight="40.0dp" />
+        <TextView
+            android:text="Navn"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Dosis"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Antal"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Alarm"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Taget?"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Hvornår?"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Lamotrigin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="200 mg"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="08:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <CheckBox
+            android:text="cb1"
+            android:id="@+id/checkBox1" />
+        <TextView
+            android:text="09:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="Lamotrigin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="100 mg"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="08:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <CheckBox
+            android:text="cb2"
+            android:id="@+id/checkBox1" />
+        <TextView
+            android:text="09:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="MIDDAG"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="b2"
+            android:id="@+id/textView1"
+            android:layout_marginRight="50.5dp" />
+        <TextView
+            android:text="b3"
+            android:id="@+id/textView1"
+            android:layout_marginRight="35.0dp" />
+        <TextView
+            android:text="b4"
+            android:id="@+id/textView1"
+            android:layout_marginRight="40.0dp" />
+        <TextView
+            android:text="b5"
+            android:id="@+id/textView1"
+            android:layout_marginRight="61.5dp" />
+        <TextView
+            android:text="b6"
+            android:id="@+id/textView1"
+            android:layout_marginRight="40.0dp" />
+        <TextView
+            android:text="Navn"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Dosis"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Antal"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Alarm"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Taget?"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Hvornår?"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Olanzapin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="10 mg"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="12:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <CheckBox
+            android:text="cb3"
+            android:id="@+id/checkBox1" />
+        <TextView
+            android:text="13:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="Olanzapin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="2,5 mg"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="12:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <CheckBox
+            android:text="cb4"
+            android:id="@+id/checkBox1" />
+        <TextView
+            android:text="13:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="AFTEN"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="b2"
+            android:id="@+id/textView1"
+            android:layout_marginRight="50.5dp" />
+        <TextView
+            android:text="b3"
+            android:id="@+id/textView1"
+            android:layout_marginRight="35.0dp" />
+        <TextView
+            android:text="b4"
+            android:id="@+id/textView1"
+            android:layout_marginRight="40.0dp" />
+        <TextView
+            android:text="b5"
+            android:id="@+id/textView1"
+            android:layout_marginRight="61.5dp" />
+        <TextView
+            android:text="b6"
+            android:id="@+id/textView1"
+            android:layout_marginRight="40.0dp" />
+        <TextView
+            android:text="Navn"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Dosis"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Antal"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Alarm"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Taget?"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Hvornår?"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Quetiapin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="200 mg"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="1"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="18:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <CheckBox
+            android:text="cb5"
+            android:id="@+id/checkBox1" />
+        <TextView
+            android:text="19:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="Litarex"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="6 mmLi+"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="2"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <TextView
+            android:text="18:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+        <CheckBox
+            android:text="cb6"
+            android:id="@+id/checkBox1" />
+        <TextView
+            android:text="19:00"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView2" />
+    </GridLayout>
 </LinearLayout>
